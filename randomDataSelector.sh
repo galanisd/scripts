@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This scripts randomly selects n=<NUMOFFILES> files from <INPUTDIR>
+# and copies them to <OUTPUTDIR>.
+
 INPUTDIR=$1
 OUTPUTDIR=$2
 NUMOFFILES=$3
